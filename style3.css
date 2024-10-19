@@ -2249,7 +2249,7 @@ table tr:hover {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 20px; /* Space between the fields */
+    margin-left: -15px;
     margin-bottom: 10px; /* Space between rows */
 }
 
@@ -2258,6 +2258,7 @@ table tr:hover {
     width: 120px; /* Control the label width */
     text-align: right;
     font-weight: bold;
+    margin-left: 8px;
 }
 
 /* Hide hidden input */

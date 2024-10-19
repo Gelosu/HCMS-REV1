@@ -156,7 +156,7 @@ function filterByCategory(selectedCategory) {
     const rows = table.getElementsByTagName('tr');
 
     for (let i = 1; i < rows.length; i++) { 
-        const categoryCell = rows[i].getElementsByTagName('td')[5]; 
+        const categoryCell = rows[i].getElementsByTagName('td')[7]; 
 
         if (categoryCell) {
             const category = categoryCell.textContent || categoryCell.innerText;
